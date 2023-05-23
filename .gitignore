@@ -1,0 +1,23 @@
+assets/vendor/*
+
+## Allow bootstrap css and js only
+!assets/vendor/bootstrap/
+assets/vendor/bootstrap/*
+!assets/vendor/bootstrap/dist
+assets/vendor/bootstrap/dist/*
+!assets/vendor/bootstrap/dist/css
+assets/vendor/bootstrap/dist/css/*
+!assets/vendor/bootstrap/dist/css/bootstrap.min.css
+!assets/vendor/bootstrap/dist/css/bootstrap.min.css.map
+!assets/vendor/bootstrap/dist/js
+assets/vendor/bootstrap/dist/js/*
+!assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js
+!assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js.map
+
+## Allow bootstrap icons css and font only
+!assets/vendor/bootstrap-icons/
+assets/vendor/bootstrap-icons/*
+!assets/vendor/bootstrap-icons/font/
+assets/vendor/bootstrap-icons/font/*
+!assets/vendor/bootstrap-icons/font/bootstrap-icons.min.css
+!assets/vendor/bootstrap-icons/font/fonts/
